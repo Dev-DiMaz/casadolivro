@@ -8,6 +8,7 @@ import org.springframework.format.datetime.DateFormatter;
 import org.springframework.format.datetime.DateFormatterRegistrar;
 import org.springframework.format.support.DefaultFormattingConversionService;
 import org.springframework.format.support.FormattingConversionService;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.support.StandardServletMultipartResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -16,9 +17,10 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import br.com.dimaz.casadolivro.controllers.HomeController;
 import br.com.dimaz.casadolivro.daos.ProdutoDAO;
 import br.com.dimaz.casadolivro.infra.FileSaver;
+import br.com.dimaz.casadolivro.models.CarrinhoCompras;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses= {HomeController.class, ProdutoDAO.class, FileSaver.class})
+@ComponentScan(basePackageClasses= {HomeController.class, ProdutoDAO.class, FileSaver.class, CarrinhoCompras.class})
 public class AppWebConfiguration {
 	
 	@Bean
@@ -26,6 +28,8 @@ public class AppWebConfiguration {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 		resolver.setPrefix("/WEB-INF/views/");
 		resolver.setSuffix(".jsp");
+		
+		resolver.setExposedContextBeanNames("carrinhoCompras");
 		
 		return resolver;
 	}
@@ -55,6 +59,11 @@ public class AppWebConfiguration {
 	@Bean
 	public MultipartResolver multipartResolver() {
 		return new StandardServletMultipartResolver();
+	}
+	
+	@Bean
+	public RestTemplate restTemplate() {
+	    return new RestTemplate();
 	}
 }
 
