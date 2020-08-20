@@ -13,7 +13,7 @@
 <link rel="icon" href="//cdn.shopify.com/s/files/1/0155/7645/t/177/assets/favicon.ico?11981592617154272979" type="image/ico" />
 <link href="https://plus.googlecom/108540024862647200608" rel="publisher" />
 
-<title>Livros de Java, SOA, Android, iPhone, Ruby on Rails e muito mais - Casa do Código</title>
+<title>Livros de Java, SOA, Android, iPhone, Ruby on Rails e muito mais - Casa do Livro</title>
 
 <link href="${contextPath}resources/css/cssbase-min.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' />
@@ -138,10 +138,10 @@
 			</div>
 			<div id="social-footer">
 				<!-- books-footer -->
-				<p class="footer-title">Links da Casa do Código</p>
+				<p class="footer-title">Links da Casa do Livro</p>
 				<ul class="footer-text-links">
 					<li><a href="http://livros.casadocodigo.com.br" rel="nofollow">Meus E-books</a></li>
-					<li><a href="/pages/sobre-a-casa-do-codigo">Sobre a Casa do Código</a></li>
+					<li><a href="/pages/sobre-a-casa-do-codigo">Sobre a Casa do Livro</a></li>
 					<li><a href="/pages/perguntas-frequentes">Perguntas Frequentes</a></li>
 					<li><a href="https://www.caelum.com.br">Caelum - Ensino e Inovação</a></li>
 					<li><a href="http://www.codecrushing.com/" rel="nofollow">Code Crushing</a></li>
