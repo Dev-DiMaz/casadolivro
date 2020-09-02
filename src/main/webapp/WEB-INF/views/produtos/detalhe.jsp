@@ -15,17 +15,17 @@
 
 <title>Livros de Java, SOA, Android, iPhone, Ruby on Rails e muito mais - Casa do Livro</title>
 
-<link href="${contextPath}resources/css/cssbase-min.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' />
-<link href="${contextPath}resources/css/fonts.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${contextPath}resources/css/fontello-ie7.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${contextPath}resources/css/fontello-embedded.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${contextPath}resources/css/fontello.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${contextPath}resources/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${contextPath}resources/css/layout-colors.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${contextPath}resources/css/responsive-style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${contextPath}resources/css/guia-do-programador-style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="${contextPath}resources/css/produtos.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/cssbase-min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/fontello-ie7.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/fontello-embedded.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/fontello.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/layout-colors.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/responsive-style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/guia-do-programador-style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="${contextPath}css/produtos.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="canonical" href="http://www.casadocodigo.com.br/" />
 </head>
 <body>
